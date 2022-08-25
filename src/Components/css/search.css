@@ -1,9 +1,13 @@
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-}
+.input-box {
+    width: 90%;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+    align-items: center;
+  }
+  .input{
+      width: 80%;
+      height: 90%;
+      border: none;
+  }
