@@ -1,0 +1,32 @@
+
+
+.data{
+    /* border: 5px solid rgb(0, 254, 89); */
+    width: 100%;
+    gap: 10px;
+    position: relative;
+    margin-top: 10px;
+    background-color:#131313;
+    border-radius: 5px;
+    
+}
+
+.data div{
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+    
+}
+
+.booknowbutton{
+    background-color: red;
+    color: white;
+    position: absolute;
+  bottom: 1px;
+    right: 5px;
+    border-radius: 5px;
+}
+
+/* .rating{
+    display: flex;
+} */

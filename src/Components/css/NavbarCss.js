@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   /* Third Nav */
   /* justify-content: flex-start; */
   // border:1px solid blue;
-  posi
+  
 `;
 export const Background = styled.nav`
   width: 100%;

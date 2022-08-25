@@ -4,7 +4,7 @@ import AllRoutes from './Components/AllRoutes';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor:"#080808"}}>
      <AllRoutes/>
     </div>
   );
