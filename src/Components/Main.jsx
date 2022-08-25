@@ -36,7 +36,7 @@ const Main = () => {
                             <input type="text" placeholder='Max' />
                         </div>
                         <div className='city'>
-                            <h2>Price</h2>
+                            <h2>City</h2>
                             <select value="Select city" >
                                 <option value="">New Delhi</option>
                                 <option value="">Ghaziabad</option>
