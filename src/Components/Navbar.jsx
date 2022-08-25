@@ -13,6 +13,7 @@ const Navbar = () => {
   return (
     <>
     <div style={{width : "100%",position:"relative"}}>
+      <div style={{height:"600px",overflow:"hidden"}}>
     <img
         src="https://dry2o5w6nqoyb.cloudfront.net/gym_upload/W6VsdPXPwdlSX/1658305692799-wp7959659.webp"
         alt=""
@@ -20,6 +21,7 @@ const Navbar = () => {
 
         style={{width : "100%",height:"auto",objectFit:"contain"}}
       />
+      </div>
 
    
       <div style={{position:"absolute",zIndex:"1",height:"100%",width:"100vw",top:"0",left:"0"}}>
