@@ -1,14 +1,16 @@
 import React from 'react'
 
-const Gym = () => {
+const Gym = ({data}) => {
+    console.log("data",data)
   return (
     <div>
         <div>
-            heading
+            {data.gym_name}
         </div>
-        <div>address</div>
-        <div>distance</div>
-        <div>price</div>
+        <div>{data.city}</div>
+        <div>{data.distance}km</div>
+        <div>rating: {data.rating}</div>
+        <div>status:{data.status}</div>
         <button>book now</button>
     </div>
   )
